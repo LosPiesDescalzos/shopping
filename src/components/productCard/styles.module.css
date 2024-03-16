@@ -1,0 +1,70 @@
+.card {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 5px;
+
+    padding: 0 !important;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 5px;
+}
+
+.leftCol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 35px;
+
+    margin-top: auto;
+}
+
+.groupBtns {
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 35px;
+
+    border: 1px solid #19191A;
+    border-radius: var(--vkui--size_border_radius_paper--regular);
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.noSelect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
